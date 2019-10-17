@@ -5,8 +5,9 @@ def hello_t(array)
 
   while i < array.length
     i = i + 1
+    binding.pry
   end
-binding.pry
+
 end
 
 hello_t
